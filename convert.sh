@@ -5,8 +5,6 @@
 #
 # It's a shell script that is using ImageMagick to create all the icon files from one source icon.
 #
-# Stick the script in your 'www/res/icons' folder with your source icon 'my-hires-icon.png' then trigger it from Terminal.
-#
 
 APP_NAME=TankRemote
 ICON=${1:-"icon.png"}
