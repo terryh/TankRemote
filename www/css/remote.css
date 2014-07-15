@@ -1,0 +1,94 @@
+#game{
+  width: 98%;
+  margin: 0 auto;
+
+}
+body {
+  font-family: Helvetica, Arial;
+  margin:0;
+  padding:0;
+
+}
+/* http://www.bestcssbuttongenerator.com/ */
+.myButton, select {
+  background-color:#599bb3;
+  border:1px solid #29668f;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family: Helvetica, Arial;
+  font-size: 2em;
+  padding:20px 20px;
+  margin: 5px 0px;
+  width: 100%;
+  height: 40px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+  background-color:#408c99;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+/* http://www.paulund.co.uk/playground/demo/css-style-checkboxes/  */
+/**
+ * Checkbox Four
+ */
+section
+{
+    float:left;
+    width:80px;
+    margin:0px 0px;
+}
+input[type=checkbox] {
+visibility: hidden;
+}
+.checkboxFour {
+    width: 40px;
+    height: 40px;
+    background: #ddd;
+    margin: 0px 0px;
+
+    border-radius: 100%;
+    position: relative;
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+/**
+ * Create the checkbox button
+ */
+.checkboxFour label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+
+    background: #333;
+
+    -webkit-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+    box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+/**
+ * Create the checked state
+ */
+.checkboxFour input[type=checkbox]:checked + label {
+    background: #26ca28;
+}
