@@ -7,7 +7,7 @@ setup the android project.
 
 mainly control my arduino tank, could refer to the blog post
 
-http://blog.lifetaiwan.net/2014/07/arduino.html
+http://blog.lifetaiwan.net/2014/07/arduino.html (wirtten in Chinese)
 
 To use this this remote control
 
@@ -21,22 +21,21 @@ Serial write
 ==============
 
 The remote only send one char each time, keyword sent to arduino is mapping from keyboard.
+    :
+    Q W E
+    A S D
+    Z X V
 
-Q W E
-A S D
-Z X V
 
-
-q , North West
-w , West
-e , North East
-a , West
-s , South
-d , East
-z , South West
-v , South East
-
-0 to 9 mean the distance of the red dot to the center point, which use to control the speed.
+* q , North West
+* w , West
+* e , North East
+* a , West
+* s , South
+* d , East
+* z , South West
+* v , South East
+* 0 to 9 mean the distance of the red dot to the center point, which use to control the speed.
 
 ICON
 =======
