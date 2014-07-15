@@ -20,11 +20,9 @@ To use this this remote control
 Serial write
 ==============
 
-The remote only send one char each time, keyword sent to arduino is mapping from keyboard.
-    :
-    Q W E
-    A S D
-    Z X V
+The remote only send one char each time, keyword sent to arduino is mapping from keyboard. 
+
+Q W E A S D Z X V
 
 
 * q , North West
