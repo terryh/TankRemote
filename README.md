@@ -5,6 +5,8 @@ TankRemote: a android app build with cordova
 This is a android application work with arduino device via bluetooth, please install the necessary  plugins to 
 setup the android project.
 
+Google Play url https://play.google.com/store/apps/details?id=com.upassing.tankremote
+
 mainly control my arduino tank, could refer to the blog post
 
 http://blog.lifetaiwan.net/2014/07/arduino.html (wirtten in Chinese)
