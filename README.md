@@ -22,7 +22,7 @@ Serial write
 
 The remote only send one char each time, keyword sent to arduino is mapping from keyboard. 
 
-Q W E A S D Z X V
+Q W E A S D Z X C
 
 
 * q , North West
@@ -32,7 +32,7 @@ Q W E A S D Z X V
 * s , South
 * d , East
 * z , South West
-* v , South East
+* c , South East
 * 0 to 9 mean the distance of the red dot to the center point, which use to control the speed.
 
 ICON
